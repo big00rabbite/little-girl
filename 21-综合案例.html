@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小马孩列表和表单</title>
+</head>
+<body>
+    <ul>
+        <li>
+            <img src="./t2.jpg" height="200" alt="">
+            <h3>与小马孩的第一张照片</h3>
+        </li>
+        <li>
+            <img src="./t3.jpg" height="200" alt="">
+            <h3>与小马孩的第二张照片</h3>
+        </li>
+        <li>
+            <img src="./t4.jpg" height="200" alt="">
+            <h3>与小马孩的第三张照片</h3>
+        </li>
+    </ul>
+    <hr>
+    <!-- 注册信息 -->
+    <h1>注册信息</h1>
+    <!-- form方便整体发送数据 -->
+    <form action="">
+        <!-- 表单控件 -->
+        <!-- 个人信息 -->
+        <h2>个人信息</h2>
+        <label for="">姓名：</label><input type="text" placeholder="请输入姓名">
+        <br><br>
+        <label for="">密码：</label><input type="password" placeholder="请输入密码">
+        <br><br>
+        <label for=""> 确认密码：</label><input type="password" placeholder="请再次输入密码">
+        <br><br>
+        <label for="">性别：</label>
+        <label><input type="radio" name="gender" checked>男</label>
+        <label><input type="radio" name="gender">女</label>
+        <br><br>
+        <label for="">居住地：</label>
+        <select>
+            <option>地球上</option>
+            <option>地球外</option>
+        </select>
+        <!-- 工作经历 -->
+        <h2>工作经历</h2>
+        <label for="">工作描述：</label>
+        <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <!-- 协议按钮 -->
+        <br><br>
+        <input type="checkbox"><label>请阅读并同意以下协议：</label>
+        <ul>
+            <li>
+                <a href="./10-图像属性.html" target="_blank">《用户服务协议》</a>
+            </li>
+            <li>
+                <a href="./12-超链接标签.html" target="_blank">《隐私协议》</a>
+            </li>
+        </ul>
+        <br><br>
+        <button>免费注册</button>
+        <button type="reset">重新填写</button>
+    </form>
+</body>
+</html>
