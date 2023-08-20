@@ -27,20 +27,20 @@
             top: 0;
             width: 100%;
             height: 100%;
-            background: rgba(99, 99, 99, 0.8);
+            background: rgba(67, 67, 67, 0.806);
             content: "";
         }
 
         .header {
             width: 100%;
             text-align: center;
-            margin-bottom: 80px;
+            margin-bottom: 10px;
             position: relative;
         }
 
         .title {
             color: #ffeff8af;
-            font-size: 56px;
+            font-size: 66px;
             font-weight: normal;
             margin: 0;
             font-family: '楷体';
@@ -51,14 +51,14 @@
             margin: 0 auto;
             flex-wrap: wrap;
             flex-direction: column;
-            max-width: 700px;
+            max-width: 999px;
             position: relative;
         }
 
         .content-title {
             font-weight: normal;
-            font-size: 52px;
-            margin: -10px 0 0 0;
+            font-size: 68px;
+            margin: -52px 0 0 0;
             transition: 0.4s;
             padding: 0 10px;
             box-sizing: border-box;
@@ -68,7 +68,7 @@
 
         .content-desc {
             margin: 0;
-            font-size: 18px;
+            font-size: 20px;
             box-sizing: border-box;
             color: rgba(254, 241, 248, 0.961);
             line-height: 24px;
@@ -82,38 +82,38 @@
             height: 100%;
             margin-left: -1px;
             content: "";
-            background: rgba(255, 255, 255, 0.07);
+            background: rgba(255, 255, 255, 0);
             font-family: '楷体';
         }
 
         .item {
-            padding: 40px 0;
+            padding: 150px  0;
             opacity: 0.3;
             filter: blur(2px);
             transition: 0.5s;
             box-sizing: border-box;
-            width: calc(50% - 40px);
+            width: calc(65% - 40px);
             display: flex;
             position: relative;
-            transform: translateY(-80px);
+            transform: translateY(-120px);
             
         }
 
         .item:before {
             content: attr(data-text);
             letter-spacing: 3px;
-            width: 100%;
+            width: 90%;
             position: absolute;
-            color: rgba(255, 237, 250, 0.607);
+            color: rgba(255, 247, 247, 0.283);
             font-size: 15px;
-            border-left: 2px solid rgba(255, 232, 241, 0.626);
+            border-left: 2px solid rgba(203, 203, 203, 0.201);
             top: 70%;
             margin-top: -5px;
             padding-left: 15px;
             opacity: 0;
             right: calc(-100% - 56px);
-            font: 900 20px '';
-            letter-spacing: 5px;
+            font: 900 30px '';
+            letter-spacing: 6px;
             font-family: '楷体';
         }
 
@@ -127,7 +127,7 @@
             left: calc(-100% - 56px);
             padding-left: 0;
             border-left: none;
-            border-right: 2px solid rgba(255, 255, 255, 0.5);
+            border-right: 2px solid rgba(255, 255, 255, 0.137);
             padding-right: 15px;
         }
 
@@ -139,7 +139,7 @@
 
         .item--active:before {
             top: 50%;
-            transition: 0.3s all 0.2s;
+            transition: 0.2s all 0.1s;
             opacity: 1;
         }
 
@@ -154,9 +154,9 @@
 
         .subtitle {
             color: rgba(255, 220, 240, 0.445);
-            font-size: 22px;
+            font-size: 25px;
             letter-spacing: 5px;
-            margin: 10px 0 0 0;
+            margin: 30px 0 0 0;
             font-weight: normal;
             font-family: '楷体';
         }
@@ -302,27 +302,17 @@
                 </div>
             </div>
 
-            <div class="item" data-text="我喜欢你">
+            <div class="item" data-text="">
                 <div class="content">
                     <img src="./img/08.jpg" alt="" class="img">
                     <h2 class="content-title">未完待续</h2>
                     <p class="content-desc">
-                        喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你
-                        喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你
+                        <!-- 喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你
+                        喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你 -->
                     </p>
                 </div>
             </div>
 
-            <div class="item" data-text="我喜欢你">
-                <div class="content">
-                    <img src="./img/08.jpg" alt="" class="img">
-                    <h2 class="content-title">未完待续</h2>
-                    <p class="content-desc">
-                        喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你
-                        喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你喜欢你
-                    </p>
-                </div>
-            </div>
         </div>
     </div>
 
