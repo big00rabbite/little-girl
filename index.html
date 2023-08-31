@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=0.3,user-scalable=yes,maxnum-scale=1.0,minium-scale=0.3">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=0.3,user-scalable=yes,maxnum-scale=1.0,minium-scale=0.3">
     <title>你好小马孩</title>
     <style>
         * {
@@ -63,7 +64,7 @@
             padding: 0 10px;
             box-sizing: border-box;
             color: #fceff5f3;
-            font-family:'楷体';
+            font-family: '楷体';
         }
 
         .content-desc {
@@ -87,7 +88,7 @@
         }
 
         .item {
-            padding: 150px  0;
+            padding: 150px 0;
             opacity: 0.3;
             filter: blur(2px);
             transition: 0.5s;
@@ -96,7 +97,7 @@
             display: flex;
             position: relative;
             transform: translateY(-120px);
-            
+
         }
 
         .item:before {
@@ -203,8 +204,8 @@
 <body>
     <div class="shell" id="shell">
         <div class="header">
-            <h2 class="title">你好呀，小马孩</h2>
-            <h3 class="subtitle">不愧是你</h3>
+            <h2 class="title">你好小马孩</h2>
+            <h3 class="subtitle">愿为此录</h3>
         </div>
         <div class="timeline">
             <div class="item" data-text="无论过去，不问将来">
@@ -313,6 +314,16 @@
                 </div>
             </div>
 
+            <div class="item" data-text="想你时风起">
+                <div class="content">
+                    <img src="./火漆.jpg" alt="" class="img">
+                    <h2 class="content-title">第七章</h2>
+                    <p class="content-desc">
+                        火漆还是那么好看，可不知下一次用到它又会是什么时候
+                    </p>
+                </div>
+            </div>
+
             <div class="item" data-text="">
                 <div class="content">
                     <img src="./img/08.jpg" alt="" class="img">
@@ -397,7 +408,7 @@
         最后，我们调用 timeline 插件并传入时间轴的 ID 作为参数。
         这将启用时间轴插件并为该时间轴绑定滚动事件。
         */
-       $("#shell").timeline();
+        $("#shell").timeline();
 
 
     </script>
